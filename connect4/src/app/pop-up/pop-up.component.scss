@@ -1,0 +1,71 @@
+@media screen and (min-width: 768px) { // Pour la responsivité sur Ordinateur
+
+
+    * {
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size: 14px;
+        color: rgb(20, 20, 20);
+        -webkit-font-smoothing: antialiased;
+    }
+
+    .close-btn {
+        margin-top: 3px;
+        margin-left: 16px;
+        margin-bottom: 16px;
+        box-shadow:inset 0px 0px 15px 3px #23395e;
+        background:linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+        background-color:#2e466e;
+        border-radius:17px;
+        border:1px solid #1f2f47;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        padding:6px 13px;
+    }
+    .close-btn:hover {
+        background:linear-gradient(to bottom, #415989 5%, #2e466e 100%);
+        background-color:#415989;
+    }
+    .close-btn:active {
+        position:relative;
+        top:1px;
+    }
+
+}
+
+@media screen and (max-width: 768px) { //pour la responsivité sur Mobile
+    * {
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";    
+        font-size: 12px;
+        color: rgb(20, 20, 20);
+        -webkit-font-smoothing: antialiased;
+    }
+
+    .close-btn {
+        margin-top: 3px;
+        margin-left: 10px;
+        margin-bottom: 16px;
+        box-shadow:inset 0px 0px 15px 3px #23395e;
+        background:linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+        background-color:#2e466e;
+        border-radius:17px;
+        border:1px solid #1f2f47;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        padding:6px 8px;
+    }
+    
+    .close-btn:hover {
+        background:linear-gradient(to bottom, #415989 5%, #2e466e 100%);
+        background-color:#415989;
+    }
+
+    .close-btn:active {
+        position:relative;
+        top:1px;
+    }
+
+}
